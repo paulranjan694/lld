@@ -1,6 +1,8 @@
-package decorator_pattern;
+package decorator_pattern.toppings;
 
-public class ExtraChicken extends ToppingsDecorator{
+import decorator_pattern.BasePizza;
+
+public class ExtraChicken extends ToppingsDecorator {
 
     BasePizza basePizza;
 

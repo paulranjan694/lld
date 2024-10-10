@@ -1,5 +1,9 @@
 package decorator_pattern;
 
+import decorator_pattern.toppings.ExtraCheese;
+import decorator_pattern.toppings.ExtraChicken;
+import decorator_pattern.toppings.Mushroom;
+
 public class PizzaStore {
     public static void main(String[] args) {
         //Customer 1 wants non-veg pizza with extra-chicken
