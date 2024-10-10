@@ -1,6 +1,6 @@
-package observerpattern.observers;
+package observer_pattern.observers;
 
-import observerpattern.observables.StockObservable;
+import observer_pattern.observables.StockObservable;
 
 public class SMSNotificationObserverImpl implements NotificationObserver {
     String username;

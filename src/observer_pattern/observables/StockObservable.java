@@ -1,6 +1,6 @@
-package observerpattern.observables;
+package observer_pattern.observables;
 
-import observerpattern.observers.NotificationObserver;
+import observer_pattern.observers.NotificationObserver;
 
 public interface StockObservable {
     public void add(NotificationObserver observer); //register observer/subscribe to observable

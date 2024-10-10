@@ -1,4 +1,4 @@
-package observerpattern.observers;
+package observer_pattern.observers;
 
 public interface NotificationObserver {
     public void update();
